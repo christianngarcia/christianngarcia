@@ -1,0 +1,16 @@
+h1 {
+    font-size: 6em;
+    font-family: 'Mali', cursive;
+    color: rgb(255, 255, 255);
+    margin-top: -10px;
+}
+div#the_id{
+    background-color: violet;
+    border-radius: 20px;
+    margin: 200px;
+    margin-top: -10px;
+}
+
+html {
+    background: url(../images/pastel3background.jpg) no-repeat;
+}
