@@ -1,16 +1,37 @@
 h1 {
     font-size: 6em;
     font-family: 'Mali', cursive;
-    color: rgb(255, 255, 255);
+    color: violet (255, 255, 255);
     margin-top: -10px;
 }
-div#the_id{
-    background-color: violet;
-    border-radius: 20px;
-    margin: 200px;
-    margin-top: -10px;
-}
+
 
 html {
     background: url(../images/pastel3background.jpg) no-repeat;
 }
+
+ul {
+    list-style: none;
+    margin-top:0px;
+    padding:0px;
+    overflow: hidden;
+    background-color: violet
+
+}
+
+li {
+    float: left;
+}
+li a {
+    display: block;
+   color:black;
+   font-family: 'Mali', cursive;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+     }
+    
