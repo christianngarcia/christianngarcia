@@ -5,6 +5,15 @@ h1 {
     margin-top: -10px;
 }
 
+h2 {
+    font-size: 4em;
+    font-family: 'Mali', cursive;
+    color: violet (255, 255, 255);
+    margin-top: 80px;
+    text-align: center;
+ 
+}
+
 
 html {
     background: url(../images/pastel3background.jpg) no-repeat;
