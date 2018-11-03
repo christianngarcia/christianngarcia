@@ -25,24 +25,45 @@
         </nav>
         <div id="the_id">
         <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
-        <h1> <center>Course Work</h1></center>
+        <h1> <center>Web Design - EME 6207 </h1></center>
             
     </div>
 
 <p>Here are a current list of courses I have completed. </p> 
     <p>As I continue to work on the site, I will upload work examples.</p>
 
-<p>-EDF 6284 Problems in Instructional Design</p>
-<p>-EDF 6055 Current Trends in Instructional Technology</p>
-<p>-EDF 6432 Foundations of Measurement</p>
-<p>-EME 6457 Online Teaching and Learning</p>
-<p>-EME 6207 Web Design (In Progress)</p>
-<p>- EME 6425 Technology Project Management (In Progess)</p>
 
-<h2>Work Samples:</h2>
+<body>
+    <button class="accordion">Photo Grid</button>
+    <div class="panel">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    
+    <button class="accordion">Photo Shop</button>
+    <div class="panel">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                        panel.style.display = "none";
+                    } else {
+                        panel.style.display = "block";
+                    }
+                });
+            }
+            
+            </script>
+</body>
 
-<p><img src="images/Highlevelflowchart.jpg"> </p>
-    <p><img src="images/lowlevelflowchart.jpg"> </p>
+
+
 
 
 

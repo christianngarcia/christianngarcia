@@ -43,7 +43,7 @@ li a {
 }
 
 li a:hover {
-    background-color: white;
+    background-color: violet;
      }
 
      p { color:black;
@@ -74,3 +74,30 @@ li a:hover {
     
     }
    
+    
+    .accordion {
+        background-color: violet;
+        color: #444;
+        cursor: pointer;
+        padding: 0px;
+        width: 100%;
+        border: none;
+        text-align: Center;
+        outline: none;
+        font-size: 40px;
+        transition: 0.4s;
+        font-family: 'Mali', cursive;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    
+  
+    
+    .panel {
+        padding: 0 18px;
+        display: none;
+        background-color: white;
+        overflow: hidden;
+    }
+    
+  
