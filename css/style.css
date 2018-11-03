@@ -9,7 +9,7 @@ h2 {
     font-size: 4em;
     font-family: 'Mali', cursive;
     color: violet (255, 255, 255);
-    margin-top: 80px;
+    margin-top: 50px;
     text-align: center;
  
 }
@@ -69,10 +69,10 @@ li a:hover {
     .dropdown:hover .dropdown-content {
         display: block;
     
-    
+    }
     .dropdown-content a:hover {background-color: #f1f1f1}
     
-    }
+    
    
     
     .accordion {
@@ -100,4 +100,8 @@ li a:hover {
         overflow: hidden;
     }
     
-  
+  img{
+      max-width: 80%;
+      
+
+  }
